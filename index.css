@@ -2,3 +2,12 @@ p {
     line-height: 2;
     letter-spacing: 1.3px;
 }
+
+body {
+    background-color: #EEF1FF;
+}
+
+.btn-primary {
+    background-color: #8758FF !important;
+    border-color: #8758FF !important;
+}
