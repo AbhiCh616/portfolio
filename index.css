@@ -1,10 +1,10 @@
+body {
+    background-color: #EEF1FF;
+}
+
 p {
     line-height: 2;
     letter-spacing: 1.3px;
-}
-
-body {
-    background-color: #EEF1FF;
 }
 
 .btn-primary {
