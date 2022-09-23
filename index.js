@@ -1,6 +1,6 @@
 function readCurrComp() {
-    let moreText = document.getElementById('p-read-current-company');
-    var btn = document.getElementById('btn-read-current-company');
+    let moreText = document.getElementById("p-read-current-company");
+    var btn = document.getElementById("btn-read-current-company");
 
     if(moreText.style.display === "none") {
         moreText.style.display = "block";
@@ -12,8 +12,8 @@ function readCurrComp() {
 }
 
 function readInternComp() {
-    let moreText = document.getElementById('p-read-intern-company');
-    var btn = document.getElementById('btn-read-intern-company');
+    let moreText = document.getElementById("p-read-intern-company");
+    var btn = document.getElementById("btn-read-intern-company");
 
     if(moreText.style.display === "none") {
         moreText.style.display = "block";
