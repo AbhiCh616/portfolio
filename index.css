@@ -1,9 +1,6 @@
 body {
     background-color: #EEF1FF;
     font-family: Nunito, serif;
-}
-
-p {
     line-height: 2;
     letter-spacing: 1.3px;
 }
@@ -15,4 +12,17 @@ h1 {
 .btn-primary {
     background-color: #8758FF !important;
     border-color: #8758FF !important;
+}
+
+.text-primary {
+    color: #8758FF !important;
+}
+
+.text-color-secondary {
+    color: #FB5393;
+}
+
+mark {
+    background-color: #8758FF !important;
+    color: white;
 }
