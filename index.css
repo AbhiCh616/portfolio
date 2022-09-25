@@ -8,6 +8,10 @@ p {
     letter-spacing: 1.3px;
 }
 
+h1 {
+    font-family: "Black Han Sans";
+}
+
 .btn-primary {
     background-color: #8758FF !important;
     border-color: #8758FF !important;
