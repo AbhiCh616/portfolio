@@ -10,12 +10,12 @@ h1 {
 }
 
 .btn-primary {
-    background-color: #8758FF !important;
-    border-color: #8758FF !important;
+    background-color: #7F4DFF !important;
+    border-color: #7F4DFF !important;
 }
 
 .text-primary {
-    color: #8758FF !important;
+    color: #7F4DFF !important;
 }
 
 .text-color-secondary {
@@ -23,6 +23,16 @@ h1 {
 }
 
 mark {
-    background-color: #8758FF !important;
+    background-color: #7F4DFF !important;
     color: white;
+}
+
+.my-card {
+    background-color: #64BCAC; 
+    color: black;
+}
+
+.card {
+    background-color: #64BCAC; 
+    color: black;
 }

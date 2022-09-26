@@ -97,14 +97,16 @@
                 <div style="max-width: 400px">
                     <img src="images/about_me.png" class="img-fluid" alt="Gamify Living Poster">
                 </div>
-                
+
             </div>
 
             <!-- right side -->
             <div class="flex-md-column mt-3 mt-sm-0 ps-md-5 col-12 col-md-7">
                 <p>
-                    Hello, I am Abhishek, but you can call me Abhi. I’m a software developer. Currently, I’m working as a
-                    full-stack developer on the web. Have <mark>1+ year of professional experience</mark> where I have learnt
+                    Hello, I am Abhishek, but you can call me Abhi. I’m a software developer. Currently, I’m working as
+                    a
+                    full-stack developer on the web. Have <mark>1+ year of professional experience</mark> where I have
+                    learnt
                     a lot from amazing people around me. I also have a <mark>bachelor’s degree in Information
                         Technology</mark>, but I let my skills speak for themselves.
                 </p>
@@ -122,86 +124,62 @@
         </div>
 
         <!-- third page -->
-        <div class="min-vh-100 d-flex flex-column justify-content-center align-items-center py-5">
+        <div class="min-vh-100 d-flex flex-column flex-md-row align-items-center py-5 py-md-0">
 
-            <!-- title -->
-            <h1>
+            <!-- default title -->
+            <h1 class="d-md-none text-primary display-3 text-center">
                 work experience
             </h1>
 
-            <!-- subtitle -->
-            <p>
-                Building systems with amazing people.
-            </p>
+            <!-- left side -->
+            <div class="flex-column flex-lg-row d-flex align-items-md-stretch mt-3 mt-sm-0 col-12 col-md-7">
 
-            <hr style="width:50%;">
-
-            <!-- content -->
-            <div class="row mt-3 mt-sm-5 w-100">
-
-                <!-- left -->
-                <div class="col-12 col-md-6">
-
-                    <!-- position & company name -->
-                    <h4>Full Stack Engineer, Cognizant</h4>
-
-                    <!-- time duration -->
-                    <p class="fw-bold">Aug 2021 - Present</p>
-
-                    <!-- tech stack -->
-                    <p>
-                        Tech Stack – C#, ASP.NET Core, Angular, MySQL, AWS
-                    </p>
-
-                    <!-- work done in company -->
-                    <ul id="p-read-current-company" style="display: none;">
-                        <li>
-                            <p>Refactored business logic out of 3 repositories to be more compliant with Clean
-                                Architecture.</p>
-                        </li>
-                        <li>
-                            <p>Configured application to log exceptions on AWS CloudWatch.</p>
-                        </li>
-                        <li>
-                            <p>In Angular, created proof of concept which served as foundation for tools and design used
-                                in implementation.</p>
-                        </li>
-                    </ul>
-
-                    <!-- read more/less button -->
-                    <button onclick="readCurrComp()" id="btn-read-current-company" type="button"
-                        class="btn btn-primary">Read More</button>
+                <div class="px-5 py-3 my-card card d-flex flex-column text-center justify-content-between align-items-center col-lg-6">
+                    <div>
+                        <b>Cognizant</b>
+                        <hr class="mx-auto" style="width:50%;">
+                    </div>
+                    <div class="">
+                        <h2>Full Stack Engineer</h2>
+                        Mar 2021 - Aug 2021
+                    </div>
+                    <button class="mx-auto btn btn-primary mt-4">
+                        Read More
+                    </button>
                 </div>
 
-                <!-- right -->
-                <div class="col-12 col-md-6 pt-5 pt-md-0 ps-md-5">
+                <div class="px-5 py-3 ms-lg-3 mt-3 mt-lg-0 my-card card d-flex flex-column text-center justify-content-between align-items-center col-lg-6">
+                    <div>
+                        <b>Cognizant</b>
+                        <hr class="mx-auto" style="width:50%;">
+                    </div>
+                    <div class="">
+                        <h2>Intern</h2>
+                        Mar 2021 - Aug 2021
+                    </div>
+                    <button class="mx-auto btn btn-primary mt-3">
+                        Read More
+                    </button>
+                </div>
 
-                    <!-- position & company name -->
-                    <h4>Intern, Cognizant</h4>
+            </div>
 
-                    <!-- time duration -->
-                    <p class="fw-bold">Mar 2021 - Aug 2021</p>
+            <!-- right side -->
+            <div class="d-none d-md-block col-5 mt-auto ps-md-5">
 
-                    <!-- tech stack -->
-                    <p>
-                        Tech Stack – Angular, MySQL
-                    </p>
+                <!-- medium title -->
+                <div class="text-end">
+                    <h1 class="display-1 text-primary">
+                        work&nbsp;
+                    </h1>
+                    <h1 class="text-color-secondary" style="margin-top: -1.5rem;">
+                        experience.
+                    </h1>
+                </div>
 
-                    <!-- work done in company -->
-                    <ul id="p-read-intern-company" style="display: none;">
-                        <li>
-                            <p>Wrote numerous Liquibase-formatted MySQL database scripts and used Jenkins pipeline to
-                                deploy them.</p>
-                        </li>
-                        <li>
-                            <p>Created 40+ Angular test cases to increase the code coverage from 50% to 80%.</p>
-                        </li>
-                        <li>
-                            <p>Documented 3 Angular components for future reference.</p>
-                        </li>
-                    </ul>
-                    <button onclick="readInternComp()" id="btn-read-intern-company" type="button"
-                        class="btn btn-primary">Read More</button>
+                <!-- section image -->
+                <div style="max-width: 300px" class="ms-auto">
+                    <img src="images/work.png" class="img-fluid" alt="Gamify Living Poster">
                 </div>
 
             </div>
