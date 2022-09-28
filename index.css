@@ -1,38 +1,107 @@
+:root {
+    --primary-color: #7F4DFF;
+    --on-primary-color: white;
+    --secondary-color: #FB5393;
+    --background-color: #EEF1FF;
+    --surface-color: #64BCAC;
+    --surface-content-color: black;
+    --primary-font: Nunito;
+    --heading-font: "Black Han Sans";
+    --fallack-font: serif;
+
+    --time: 0.707s
+}
+
 body {
-    background-color: #EEF1FF;
-    font-family: Nunito, serif;
+    background-color: var(--background-color);
+    font-family: var(--primary-font), var(--fallack-font);
     line-height: 2;
     letter-spacing: 1.3px;
 }
 
 h1 {
-    font-family: "Black Han Sans";
+    font-family: var(--heading-font), var(--fallack-font);
 }
 
 .btn-primary {
-    background-color: #7F4DFF !important;
-    border-color: #7F4DFF !important;
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
 }
 
 .text-primary {
-    color: #7F4DFF !important;
+    color: var(--primary-color) !important;
+}
+
+.heading-text-font {
+    font-family: var(--heading-font), var(--fallack-font);
 }
 
 .text-color-secondary {
-    color: #FB5393;
+    color: var(--secondary-color);
 }
 
 mark {
-    background-color: #7F4DFF !important;
-    color: white;
+    background-color: var(--primary-color) !important;
+    color: var(--on-primary-color);
 }
 
 .my-card {
-    background-color: #64BCAC; 
-    color: black;
+    background-color: var(--surface-color);
+    color: var(--surface-content-color);
 }
 
-.card {
-    background-color: #64BCAC; 
-    color: black;
+.flip-cards {
+    display: grid;
+}
+
+.flip-card {
+    perspective: 80rem;
+    max-width: 550px;
+
+    display: flex;
+    margin-left: auto;
+}
+
+.flip-card-content {
+    transition: transform 1s;
+    transform-style: preserve-3d;
+
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex: 1;
+}
+
+.flip-card:hover .flip-card-content {
+    transform: rotateY(180deg);
+    transition: transform 0.5s;
+}
+
+.flip-card-front,
+.flip-card-back {
+    backface-visibility: hidden;
+
+    display: flex;
+    min-width: 100%;
+}
+
+.flip-card-back {
+    transform: rotateY(180deg) translate(100%, 0);
+
+    background-color: var(--surface-color);
+}
+
+.project-image {
+    object-fit: cover;
+    object-position: right;
+    width: 100%;
+    height: 100%;
+}
+
+.project-image, .overlay-text {position: absolute;}
+.overlay-text 
+{
+    bottom: 10px; 
+    left: 10px;
+    color: white;
+    font-family: var(--heading-font), var(--fallack-font);
 }
