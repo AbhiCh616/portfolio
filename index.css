@@ -112,20 +112,21 @@ mark {
 .timeline {
     border-left: 2px solid #FFC850;
     padding-bottom: 30px;
+    padding-top: 40px;
 }
 
 .dot {
+    display: inline-block;
     border-radius: 50%;
-    height: 25px;
-    width: 25px;
-    background-color: var(--secondary-color);
-    box-shadow: 4px 4px  rgba(0,0,0,0.6);display: inline-block;
-
     margin-left: -25px; 
+    height: 22px;
+    width: 22px;
+    background-color: var(--secondary-color);
+    box-shadow: 4px 4px  rgba(0,0,0,0.6);
 }
 
-.timeline .container {
-    margin-top: 70px;
+.timeline .space-between {
+    height: 70px;
 }
 
 .timeline .container .content {
