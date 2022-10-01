@@ -1,25 +1,27 @@
-function readCurrComp() {
-    let moreText = document.getElementById("p-read-current-company");
-    var btn = document.getElementById("btn-read-current-company");
+let fullTimeDialog = document.getElementById("full-time-desc");
+let internDialog = document.getElementById("intern-desc");
 
-    if(moreText.style.display === "none") {
-        moreText.style.display = "block";
-        btn.innerHTML = "Read Less";
-    } else {
-        moreText.style.display = "none";
-        btn.innerHTML = "Read More";
+function readCurrCompDesc() {
+    fullTimeDialog.style.display = "block";
+}
+
+function readInternDesc() {
+    internDialog.style.display = "block";
+}
+
+window.onclick = function(event) {
+    if (event.target === fullTimeDialog) {
+        fullTimeDialog.style.display = "none";
+    }
+    if (event.target === internDialog) {
+        internDialog.style.display = "none";
     }
 }
 
-function readInternComp() {
-    let moreText = document.getElementById("p-read-intern-company");
-    var btn = document.getElementById("btn-read-intern-company");
+function closeFullTimePopup() {
+    fullTimeDialog.style.display = "none";
+}
 
-    if(moreText.style.display === "none") {
-        moreText.style.display = "block";
-        btn.innerHTML = "Read Less";
-    } else {
-        moreText.style.display = "none";
-        btn.innerHTML = "Read More";
-    }
+function closeInternPopup() {
+    internDialog.style.display = "none";
 }

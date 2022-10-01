@@ -146,9 +146,24 @@
                             <h2>Full Stack Engineer</h2>
                             Aug 2021 - Present<br>
                             Tech Stack – C#, ASP.NET Core, Angular, MySQL, AWS<br>
-                            <button class="btn btn-primary mt-3">
+                            <button class="btn btn-primary mt-3" onclick="readCurrCompDesc()">
                                 Read More
                             </button>
+                        </div>
+                    </div>
+
+                    <!-- full time desc -->
+                    <div id="full-time-desc" class="popup-dialog">
+                        <div class="popup-dialog-content">
+                            <i class="fa fa-window-close fa-2x close-button ms-auto" onclick="closeFullTimePopup()">
+                            </i>
+                            <ul>
+                                <li>Refactored business logic out of 3 repositories to be more compliant with Clean
+                                    Architecture.</li>
+                                <li>Configured application to log exceptions on AWS CloudWatch.</li>
+                                <li>In Angular, created proof of concept which served as foundation for tools and
+                                    design used in implementation.</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -162,9 +177,22 @@
                             <h2>Intern</h2>
                             Mar 2021 - Aug 2021<br>
                             Tech Stack – Angular, MySQL<br>
-                            <button class="btn btn-primary mt-3">
+                            <button class="btn btn-primary mt-3" onclick="readInternDesc()">
                                 Read More
                             </button>
+                        </div>
+                    </div>
+
+                    <!-- intern desc -->
+                    <div id="intern-desc" class="popup-dialog">
+                        <div class="popup-dialog-content">
+                            <i class="fa fa-window-close fa-2x close-button ms-auto" onclick="closeInternPopup()">
+                            </i>
+                            <ul>
+                                <li>Wrote numerous Liquibase-formatted MySQL database scripts and used Jenkins pipeline to deploy them.</li>
+                                <li>Created 40+ Angular test cases to increase the code coverage from 50% to 80%.</li>
+                                <li>Documented 3 Angular components for future reference.</li>
+                            </ul>
                         </div>
                     </div>
 
@@ -410,12 +438,12 @@
                     <a style="color: #0A66C2;" class="mt-md-4 me-3 me-md-5"
                         href="https://www.linkedin.com/in/abhich1607" target="_blank" role="button"><i
                             class="fa fa-linkedin fa-2x"></i></a>
-                    <a style="color: #00ab6c;" class="mt-md-4" href="https://medium.com/@abhichn"
-                        target="_blank" role="button"><i class="fa fa-medium fa-2x"></i></a>
+                    <a style="color: #00ab6c;" class="mt-md-4" href="https://medium.com/@abhichn" target="_blank"
+                        role="button"><i class="fa fa-medium fa-2x"></i></a>
                 </div>
 
                 <div class="text-center mt-5">
-                    <div class="h4 fw-bold">
+                    <div class="fw-bold">
                         contact@abhishekchouhan.com
                     </div>
                 </div>
@@ -425,6 +453,8 @@
         </div>
 
     </div>
+
+
 
     <div class="footer">
         <div>Made with ❤️ by Abhi</div>
