@@ -54,11 +54,6 @@ mark {
     color: var(--surface-content-color);
 }
 
-.flipped-image {
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-}
-
 .flip-cards {
     display: grid;
 }
@@ -68,6 +63,7 @@ mark {
     max-width: 550px;
 
     display: flex;
+    margin-left: auto;
 }
 
 .flip-card-content {
@@ -177,7 +173,7 @@ mark {
     width: 100%;
     height: 100%;
     overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0,0,0,0.4);
 }
 
 .popup-dialog-content {
@@ -188,7 +184,7 @@ mark {
     display: flex;
     flex-direction: column;
     padding: 15px;
-
+    
     border-radius: 10px;
 }
 
@@ -223,7 +219,7 @@ mark {
 .footer .right {
     /* align-self: right;
     flex: 1;*/
-    text-align: end;
+    text-align: end; 
 }
 
 .footer .container .credits {
