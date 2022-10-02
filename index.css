@@ -23,6 +23,10 @@ h1 {
     font-family: var(--heading-font), var(--fallack-font);
 }
 
+.primary-text {
+    font-family: var(--heading-font), var(--fallack-font);
+}
+
 .btn-primary {
     background-color: var(--primary-color) !important;
     border-color: var(--primary-color) !important;
@@ -156,14 +160,6 @@ mark {
     width: 25px;
 }
 
-.footer {
-    background-color: var(--surface-color);
-    text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    font-weight: bold;
-}
-
 .quote {
     font-size: larger;
 }
@@ -201,4 +197,31 @@ mark {
 .close-button:hover {
     color: black;
     cursor: pointer;
+}
+
+.footer {
+    background-color: var(--surface-color);
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+.footer .container .contact-details {
+    /* display: flex;
+    align-content: space-between;
+    width: 100%; */
+}
+
+.footer .left {
+    /* align-self: left;
+    flex: 1; */
+}
+
+.footer .right {
+    /* align-self: right;
+    flex: 1;*/
+    text-align: end; 
+}
+
+.footer .container .credits {
+    /* text-align: center; */
 }
