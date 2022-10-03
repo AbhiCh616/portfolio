@@ -29,3 +29,7 @@ function closeInternPopup() {
 function hireMe() {
     window.open('mailto:contact@abhishekchouhan.com', '_blank');
 }
+
+function gamifyLivingGitHub() {
+    window.open('https://github.com/AbhiCh616/GamifyLiving', '_blank');
+}

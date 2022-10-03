@@ -39,6 +39,12 @@ h1 {
     text-align: center;
 }
 
+.badges {
+    margin: auto auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
 .front-page {
     display: flex;
     flex-flow: row wrap;
@@ -216,11 +222,15 @@ mark {
     backface-visibility: hidden;
 
     display: flex;
+
     min-width: 100%;
 }
 
 .flip-card-back {
     transform: rotateY(180deg) translate(100%, 0);
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
 
     background-color: var(--surface-color);
 }
@@ -344,6 +354,10 @@ mark {
 
 .call-to-action-socials {
     margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
 }
 
 .call-to-action-email-id {
@@ -351,6 +365,10 @@ mark {
     text-align: center;
     font-weight: bold;
     font-size: max(1.5vw, 1rem);
+}
+
+.flip-card-back .title {
+    font-weight: bold;
 }
 
 @media screen and (max-width: 600px) {
@@ -400,5 +418,9 @@ mark {
 
     .timeline {
         margin-left: 10px;
+    }
+
+    .call-to-action-socials {
+        margin-top: 20px;
     }
 }
