@@ -45,6 +45,8 @@ h1 {
     margin-top: 40px;
 }
 
+
+
 .front-page {
     display: flex;
     flex-flow: row wrap;
@@ -135,6 +137,10 @@ h1 {
     display: none;
     font-size: 2.5em;
     color: var(--primary-color);
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .desktop-heading {
@@ -422,5 +428,18 @@ mark {
 
     .call-to-action-socials {
         margin-top: 20px;
+    }
+
+    .hide-on-mobile {
+        display: none;
+    }
+
+    .quote-right {
+        order: 0 !important; 
+    }
+
+    .quote {
+        margin-bottom: 20px;
+        font-size: large;
     }
 }
