@@ -35,7 +35,7 @@ h1 {
 }
 
 .center {
-    margin: 0px auto;
+    margin: auto auto;
     text-align: center;
 }
 
@@ -335,48 +335,8 @@ mark {
 
 .footer {
     background-color: var(--surface-color);
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 15px;
-}
-
-.footer .footer-content {
-    max-width: var(--max-width);
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px 5vw;
-}
-
-.footer .footer-content .contact-details {
-    display: flex;
-    flex-flow: row;
-}
-
-.footer .footer-content .contact-details .left {
-    order: 1;
-    width: 50%;
-}
-
-.footer .footer-content .contact-details .left .message-header {
-    font-weight: bold;
-}
-
-.footer .footer-content .contact-details .right {
-    order: 2;
-    padding-left: 30px;
-    display: flex;
-    flex-flow: column;
-    align-items: flex-end;
-    width: 50%;
-}
-
-.footer .footer-content .contact-me-header {
-    text-align: center;
-    font-weight: bold;
-    font-size: 2.5em;
-}
-
-.footer .footer-content .right .email-id {
-    margin-top: 10px;
     text-align: center;
     font-weight: bold;
 }
@@ -385,12 +345,6 @@ mark {
     margin-top: 10px;
     text-align: center;
     font-weight: bold;
-}
-
-.footer .footer-content .credits {
-    text-align: center;
-    font-weight: bold;
-    margin-top: 20px;
 }
 
 @media screen and (max-width: 600px) {
@@ -420,22 +374,6 @@ mark {
         order: 2;
         width: 100%;
         gap: 40px;
-    }
-
-    .footer .footer-content .contact-details {
-        flex-flow: column;
-    }
-
-    .footer .footer-content .contact-details .left {
-        width: 100%;
-        align-items: center;
-        text-align: center;
-    }
-
-    .footer .footer-content .contact-details .right {
-        width: 100%;
-        align-items: center;
-        padding-left: 0px;
     }
 
     .front-page .header {
