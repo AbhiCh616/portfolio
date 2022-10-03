@@ -25,3 +25,7 @@ function closeFullTimePopup() {
 function closeInternPopup() {
     internDialog.style.display = "none";
 }
+
+function hireMe() {
+    window.open('mailto:contact@abhishekchouhan.com', '_blank');
+}

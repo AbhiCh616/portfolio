@@ -27,372 +27,265 @@
 
 <body>
 
-    <div class="container px-sm-5 px-md-0">
+    <!-- first page -->
+    <div class="front-page">
 
-        <!-- first page -->
-        <div
-            class="min-vh-100 d-flex flex-column flex-md-row justify-content-stretch align-items-center align-items-md-stretch justify-content-md-start py-3 py-md-5">
+        <div class="header">
 
-            <div
-                class="d-flex my-auto flex-column justify-content-center order-1 order-md-2 offset-md-1 text-center text-md-start">
-                <!-- header -->
+            <div class="intro">
+                Hi👋, I am Abhi
+            </div>
+            <div class="subtitle">
+                I'm a software developer.
+            </div>
+            <button class="primary-btn" onclick="hireMe()">
+                Hire Me
+            </button>
 
-                <h1 style="font-family: Black Han Sans" class="display-1">
-                    Hi👋, I am Abhi
-                </h1>
-                <p class="text-secondary lead">
-                    I'm a software developer.
-                </p>
+        </div>
 
-                <!-- mail button -->
-                <a class="btn btn-primary mx-auto ms-md-0 mt-md-3" href="mailto:contact@abhishekchouhan.com"
-                    target="_blank" role="button">
-                    Hire Me
-                </a>
+        <!-- socials -->
+        <div class="socials">
+            <a style="color: #1DA1F2;" href="https://twitter.com/AbhiCh2000" target="_blank" role="button"><i
+                    class="fa fa-twitter fa-2x"></i></a>
+            <a style="color: #171515;" href="https://github.com/AbhiCh616" target="_blank" role="button"><i
+                    class="fa fa-github fa-2x"></i></a>
+            <a style="color: #0A66C2;" href="https://www.linkedin.com/in/abhich1607" target="_blank" role="button"><i
+                    class="fa fa-linkedin fa-2x"></i></a>
+            <a style="color: #00ab6c;" href="https://medium.com/@abhichn" target="_blank" role="button"><i
+                    class="fa fa-medium fa-2x"></i></a>
+        </div>
 
+        <!-- down arrow -->
+        <div class="down-arrow">
+            <img src="images/arrow_down.png" class="img-fluid" alt="Arrow pointing down">
+        </div>
+
+    </div>
+
+    <!-- second page -->
+    <div class="page">
+
+        <!-- default title -->
+        <h1 class="mobile-heading">
+            about me
+        </h1>
+
+        <!-- left side -->
+        <div class="left section-header">
+
+            <!-- medium title -->
+            <div class="desktop-heading">
+                <div class="secondary-text">
+                    about
+                </div>
+                <div class="primary-text second-text">
+                    me.
+                </div>
             </div>
 
-            <!-- socials -->
-            <div class="mt-3 me-md-5 d-flex flex-row flex-md-column justify-content-between justify-content-md-end order-2 order-md-1 mt-md-auto"
-                style="max-width: 260px;">
-                <a style="color: #1DA1F2;" href="https://twitter.com/AbhiCh2000" target="_blank" role="button"><i
-                        class="fa fa-twitter fa-2x"></i></a>
-                <a style="color: #171515;" class="mt-md-4 ms-5 ms-md-0" href="https://github.com/AbhiCh616"
-                    target="_blank" role="button"><i class="fa fa-github fa-2x"></i></a>
-                <a style="color: #0A66C2;" class="mt-md-4 ms-5 ms-md-0" href="https://www.linkedin.com/in/abhich1607"
-                    target="_blank" role="button"><i class="fa fa-linkedin fa-2x"></i></a>
-                <a style="color: #00ab6c;" class="mt-md-4 ms-5 ms-md-0" href="https://medium.com/@abhichn"
-                    target="_blank" role="button"><i class="fa fa-medium fa-2x"></i></a>
-            </div>
-
-            <!-- down arrow -->
-            <div style="max-width: 40px" class="order-3 my-md-auto offset-md-2 ms-lg-auto d-none d-md-block">
-                <img src="images/arrow_down.png" class="img-fluid" alt="Arrow pointing down">
+            <!-- section image -->
+            <div style="max-width: 400px">
+                <img src="images/about_me.png" class="img-fluid" alt="illustration of me">
             </div>
 
         </div>
 
-        <!-- second page -->
-        <div class="min-vh-100 d-flex flex-column flex-md-row align-items-center py-5 py-md-0">
+        <!-- right side -->
+        <div class="right section-content">
+            <p>
+                Hello, I am Abhishek, but you can call me Abhi. I’m a software developer. Currently, I’m working as
+                a
+                full-stack developer on the web. Have <mark>1+ year of professional experience</mark> where I have
+                learnt
+                a lot from amazing people around me. I also have a <mark>bachelor’s degree in Information
+                    Technology</mark>, but I let my skills speak for themselves.
+            </p>
+            <p>
+                Little me always had a nag inside to understand how these magical things called ✨ computers ✨
+                work. And let me tell you, that curiosity is still inside, driving me.
+            </p>
+            <p>
+                I can do wonders for your business with the help of my magic keyboard. Whatever the outcome may
+                be, I will be more than happy to chat with you, so feel free to reach out to
+                contact@abhishekchouhan.com.
+            </p>
+        </div>
 
-            <!-- default title -->
-            <h1 class="d-md-none text-primary display-3">
-                about me
-            </h1>
+    </div>
 
-            <!-- left side -->
-            <div class="d-none d-md-block col-5 mt-auto">
+    <!-- third page -->
+    <div class="page">
 
+        <!-- default title -->
+        <h1 class="mobile-heading">
+            work experience
+        </h1>
+
+        <!-- left side -->
+        <div class="left section-content">
+
+            <!-- timeline -->
+            <div class="timeline ms-3 mx-md-auto">
+
+                <!-- full time -->
+                <div class="container">
+                    <span class="dot"></span>
+                    <div class="content">
+                        <b>Cognizant</b>
+                        <h2>Full Stack Engineer</h2>
+                        Aug 2021 - Present<br>
+                        Tech Stack – C#, ASP.NET Core, Angular, MySQL, AWS<br>
+                        <button class="primary-btn" onclick="readCurrCompDesc()">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+
+                <!-- full time desc -->
+                <div id="full-time-desc" class="popup-dialog">
+                    <div class="popup-dialog-content">
+                        <i class="close-button fa fa-window-close fa-2x" onclick="closeFullTimePopup()">
+                        </i>
+                        <ul>
+                            <li>Refactored business logic out of 3 repositories to be more compliant with Clean
+                                Architecture.</li>
+                            <li>Configured application to log exceptions on AWS CloudWatch.</li>
+                            <li>In Angular, created proof of concept which served as foundation for tools and
+                                design used in implementation.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="space-between"></div>
+
+                <!-- intern -->
+                <div class="container">
+                    <span class="dot"></span>
+                    <div class="content">
+                        <b>Cognizant</b>
+                        <h2>Intern</h2>
+                        Mar 2021 - Aug 2021<br>
+                        Tech Stack – Angular, MySQL<br>
+                        <button class="primary-btn" onclick="readInternDesc()">
+                            Read More
+                        </button>
+                    </div>
+                </div>
+
+                <!-- intern desc -->
+                <div id="intern-desc" class="popup-dialog">
+                    <div class="popup-dialog-content">
+                        <i class="close-button fa fa-window-close fa-2x" onclick="closeInternPopup()">
+                        </i>
+                        <ul>
+                            <li>Wrote numerous Liquibase-formatted MySQL database scripts and used Jenkins pipeline
+                                to deploy them.</li>
+                            <li>Created 40+ Angular test cases to increase the code coverage from 50% to 80%.</li>
+                            <li>Documented 3 Angular components for future reference.</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- right side -->
+        <div class="right section-header">
+
+            <!-- medium title -->
+            <div class="desktop-heading text-align-right">
+                <div class="primary-text">
+                    work
+                </div>
+                <div class="secondary-text second-text">
+                    experience.
+                </div>
+            </div>
+
+            <!-- section image -->
+            <div style="max-width: 300px">
+                <img src="images/work.png" class="img-fluid" alt="Illustration of me working">
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- fourth page -->
+    <div class="page">
+
+        <!-- default title -->
+        <h1 class="mobile-heading">
+            personal projects
+        </h1>
+
+        <!-- left side -->
+        <div class="left section-header">
+
+            <!-- quote -->
+            <p class="quote">
+                "A place where I learn concepts, that I have yet to encounter in my work projects."
+            </p>
+
+
+            <div>
                 <!-- medium title -->
-                <div>
-                    <h1 class="text-color-secondary">
-                        about&nbsp;
-                    </h1>
-                    <h1 class="display-1 text-primary" style="margin-top: -1.5rem;">
-                        me.
-                    </h1>
+                <div class="desktop-heading">
+                    <div class="secondary-text">
+                        personal
+                    </div>
+                    <div class="primary-text second-text">
+                        projects
+                    </div>
                 </div>
 
                 <!-- section image -->
                 <div style="max-width: 400px">
-                    <img src="images/about_me.png" class="img-fluid" alt="Illustration of me">
+                    <img src="images/projects1.png" class="img-fluid" alt="Laptop illustration">
                 </div>
-
             </div>
 
-            <!-- right side -->
-            <div class="flex-md-column mt-3 mt-sm-0 ps-md-5 col-12 col-md-7">
-                <p>
-                    Hello, I am Abhishek, but you can call me Abhi. I’m a software developer. Currently, I’m working as
-                    a
-                    full-stack developer on the web. Have <mark>1+ year of professional experience</mark> where I have
-                    learnt
-                    a lot from amazing people around me. I also have a <mark>bachelor’s degree in Information
-                        Technology</mark>, but I let my skills speak for themselves.
-                </p>
-                <p>
-                    Little me always had a nag inside to understand how these magical things called ✨ computers ✨
-                    work. And let me tell you, that curiosity is still inside, driving me.
-                </p>
-                <p>
-                    I can do wonders for your business with the help of my magic keyboard. Whatever the outcome may
-                    be, I will be more than happy to chat with you, so feel free to reach out to
-                    contact@abhishekchouhan.com.
-                </p>
-            </div>
 
         </div>
 
-        <!-- third page -->
-        <div class="min-vh-100 d-flex flex-column flex-md-row align-items-center py-5 py-md-0">
+        <!-- right side -->
+        <div class="right section-content">
 
-            <!-- default title -->
-            <h1 class="d-md-none text-primary display-3 text-center">
-                work experience
-            </h1>
+            <!-- projects -->
+            <div class="flip-cards">
 
-            <!-- left side -->
-            <div
-                class="flex-column flex-lg-row d-flex align-items-md-stretch mt-3 mt-sm-0 col-12 col-md-7 justify-content-between">
+                <!-- android project -->
+                <div class="flip-card">
+                    <div class="flip-card-content">
 
-                <!-- timeline -->
-                <div class="timeline ms-3 mx-md-auto">
-
-                    <!-- full time -->
-                    <div class="container">
-                        <span class="dot"></span>
-                        <div class="content">
-                            <b>Cognizant</b>
-                            <h2>Full Stack Engineer</h2>
-                            Aug 2021 - Present<br>
-                            Tech Stack – C#, ASP.NET Core, Angular, MySQL, AWS<br>
-                            <button class="btn btn-primary mt-3" onclick="readCurrCompDesc()">
-                                Read More
-                            </button>
+                        <!-- card front -->
+                        <div class="flip-card-front">
+                            <img src="images/gamify_living_poster2.png" class="rounded project-image"
+                                alt="Gamify Living project image">
+                            <div class="overlay-text h2">Gamify Living</div>
                         </div>
-                    </div>
 
-                    <!-- full time desc -->
-                    <div id="full-time-desc" class="popup-dialog">
-                        <div class="popup-dialog-content">
-                            <i class="fa fa-window-close fa-2x close-button ms-auto" onclick="closeFullTimePopup()">
-                            </i>
-                            <ul>
-                                <li>Refactored business logic out of 3 repositories to be more compliant with Clean
-                                    Architecture.</li>
-                                <li>Configured application to log exceptions on AWS CloudWatch.</li>
-                                <li>In Angular, created proof of concept which served as foundation for tools and
-                                    design used in implementation.</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="space-between"></div>
-
-                    <!-- intern -->
-                    <div class="container">
-                        <span class="dot"></span>
-                        <div class="content">
-                            <b>Cognizant</b>
-                            <h2>Intern</h2>
-                            Mar 2021 - Aug 2021<br>
-                            Tech Stack – Angular, MySQL<br>
-                            <button class="btn btn-primary mt-3" onclick="readInternDesc()">
-                                Read More
-                            </button>
-                        </div>
-                    </div>
-
-                    <!-- intern desc -->
-                    <div id="intern-desc" class="popup-dialog">
-                        <div class="popup-dialog-content">
-                            <i class="fa fa-window-close fa-2x close-button ms-auto" onclick="closeInternPopup()">
-                            </i>
-                            <ul>
-                                <li>Wrote numerous Liquibase-formatted MySQL database scripts and used Jenkins pipeline
-                                    to deploy them.</li>
-                                <li>Created 40+ Angular test cases to increase the code coverage from 50% to 80%.</li>
-                                <li>Documented 3 Angular components for future reference.</li>
-                            </ul>
-                        </div>
-                    </div>
-
-                </div>
-
-            </div>
-
-            <!-- right side -->
-            <div class="d-none d-md-block col-5 mt-auto ps-md-5">
-
-                <!-- medium title -->
-                <div class="text-end">
-                    <h1 class="display-1 text-primary">
-                        work&nbsp;
-                    </h1>
-                    <h1 class="text-color-secondary" style="margin-top: -1.5rem;">
-                        experience.
-                    </h1>
-                </div>
-
-                <!-- section image -->
-                <div style="max-width: 300px" class="ms-auto">
-                    <img src="images/work.png" class="img-fluid" alt="Illustration of me working">
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- fourth page -->
-        <div class="min-vh-100 d-flex flex-column flex-md-row align-items-center py-5">
-
-            <!-- default title -->
-            <h1 class="d-md-none text-primary display-3 text-center">
-                personal projects
-            </h1>
-
-            <!-- left side -->
-            <div class="d-none d-md-block col-5 mt-auto">
-
-                <!-- quote -->
-                <p class="fw-bold fst-italic quote">
-                    "A place where I learn concepts, that I have yet to encounter in my work projects."
-                </p>
-
-
-                <div class="mt-5">
-                    <!-- medium title -->
-                    <div>
-                        <h1 class="text-color-secondary">
-                            personal&nbsp;
-                        </h1>
-                        <h1 class="display-1 text-primary" style="margin-top: -1rem;">
-                            projects
-                        </h1>
-                    </div>
-
-                    <!-- section image -->
-                    <div style="max-width: 400px">
-                        <img src="images/projects1.png" class="img-fluid" alt="Laptop illustration">
-                    </div>
-                </div>
-
-
-            </div>
-
-            <!-- right side -->
-            <div class="d-flex flex-column mt-3 mt-sm-0 ps-md-5 col-12 col-md-7">
-
-                <!-- projects -->
-                <div class="flip-cards">
-
-                    <!-- android project -->
-                    <div class="flip-card">
-                        <div class="flip-card-content">
-
-                            <!-- card front -->
-                            <div class="flip-card-front">
-                                <img src="images/gamify_living_poster2.png" class="rounded project-image"
-                                    alt="Gamify Living project image">
-                                <div class="overlay-text h2">Gamify Living</div>
+                        <!-- card back -->
+                        <div class="flip-card-back d-flex flex-column p-3 rounded">
+                            <!-- project name -->
+                            <h4 class="text-uppercase h2 fw-bold">Gamify Living</h4>
+                            <!-- project description -->
+                            <p>
+                                An Android app to make your to-do list feel more like a game. <br>
+                                <b>Tools used:</b> Kotlin, Jetpack Compose, Room, Flow, Coroutines, Hilt
+                            </p>
+                            <!-- project links -->
+                            <div>
+                                <a class="btn btn-primary" href="https://github.com/AbhiCh616/GamifyLiving"
+                                    target="_blank" role="button">
+                                    GitHub
+                                </a>
                             </div>
-
-                            <!-- card back -->
-                            <div class="flip-card-back d-flex flex-column p-3 rounded">
-                                <!-- project name -->
-                                <h4 class="text-uppercase h2 fw-bold">Gamify Living</h4>
-                                <!-- project description -->
-                                <p>
-                                    An Android app to make your to-do list feel more like a game. <br>
-                                    <b>Tools used:</b> Kotlin, Jetpack Compose, Room, Flow, Coroutines, Hilt
-                                </p>
-                                <!-- project links -->
-                                <div>
-                                    <a class="btn btn-primary" href="https://github.com/AbhiCh616/GamifyLiving"
-                                        target="_blank" role="button">
-                                        GitHub
-                                    </a>
-                                </div>
-                            </div>
-
                         </div>
+
                     </div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- fifth page -->
-        <div class="min-vh-100 d-flex flex-column flex-md-row align-items-center py-5 py-md-0">
-
-            <!-- default title -->
-            <h1 class="d-md-none text-primary display-3 text-center">
-                skills
-            </h1>
-
-            <!-- left side -->
-            <div class="flex-row d-flex flex-column align-items-md-stretch mt-3 mt-sm-0 pe-md-5 col-12 col-md-7">
-
-                <div class="skills-list">
-
-                    <div class="skill-card ">
-                        <div class="skill-image">
-                            <img src="images/angular_icon.png" class="img-fluid" alt="Angular icon">
-                        </div>
-                        angular
-                    </div>
-
-                    <div class="skill-card">
-                        <div class="skill-image">
-                            <img src="images/kotlin_icon.png" class="img-fluid" alt="Angular icon">
-                        </div>
-                        kotlin
-                    </div>
-
-                    <div class="skill-card">
-                        <div class="skill-image">
-                            <img src="images/c++_icon.png" class="img-fluid" alt="Angular icon">
-                        </div>
-                        c++
-                    </div>
-
-                    <div class="skill-card">
-                        <div class="skill-image">
-                            <img src="images/android_icon.png" class="img-fluid" alt="Angular icon">
-                        </div>
-                        android
-                    </div>
-
-                    <div class="skill-card">
-                        <div class="skill-image">
-                            <img src="images/netcore_icon.png" class="img-fluid" alt="Angular icon">
-                        </div>
-                        .net core
-                    </div>
-
-                    <div class="skill-card">
-                        <div class="skill-image">
-                            <img src="images/mysql_icon.png" class="img-fluid" alt="Angular icon">
-                        </div>
-                        mysql
-                    </div>
-
-                    <div class="skill-card">
-                        <div class="skill-image">
-                            <img src="images/git_icon.png" class="img-fluid" alt="Angular icon">
-                        </div>
-                        git
-                    </div>
-
-                </div>
-
-                <!-- aws badge -->
-                <div class="mt-5 d-flex justify-content-center ">
-                    <img src="images/aws_badge.png" class="img-fluid" style="width: 130px;" alt="Angular icon">
-                </div>
-
-            </div>
-
-            <!-- right side -->
-            <div class="d-none d-md-block col-5 mt-auto ps-md-5">
-
-                <!-- quote -->
-                <p class="quote fw-bold fst-italic">
-                    "Although it's not always about frameworks and languages but here is the list of ones I have used."
-                </p>
-
-                <!-- section image -->
-                <div style="max-width: 300px" class="ms-auto">
-                    <img src="images/skills.png" class="img-fluid" alt="Illustration of me working">
-                </div>
-
-                <!-- medium title -->
-                <div class="text-end ">
-                    <h1 class="display-1 text-primary">
-                        skills
-                    </h1>
                 </div>
 
             </div>
@@ -401,38 +294,136 @@
 
     </div>
 
-    <div class="footer">
-        <div class="container">
+    <!-- fifth page -->
+    <div class="page">
 
-            <div class="contact-details d-flex flex-column flex-md-row text-center text-md-start justify-content-md-between">
+        <!-- default title -->
+        <h1 class="mobile-heading">
+            skills
+        </h1>
+
+        <!-- left side -->
+        <div class="left section-content">
+
+            <div class="skills-list">
+
+                <div class="skill-card ">
+                    <div class="skill-image">
+                        <img src="images/angular_icon.png" class="img-fluid" alt="Angular icon">
+                    </div>
+                    angular
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-image">
+                        <img src="images/kotlin_icon.png" class="img-fluid" alt="Angular icon">
+                    </div>
+                    kotlin
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-image">
+                        <img src="images/c++_icon.png" class="img-fluid" alt="Angular icon">
+                    </div>
+                    c++
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-image">
+                        <img src="images/android_icon.png" class="img-fluid" alt="Angular icon">
+                    </div>
+                    android
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-image">
+                        <img src="images/netcore_icon.png" class="img-fluid" alt="Angular icon">
+                    </div>
+                    .net core
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-image">
+                        <img src="images/mysql_icon.png" class="img-fluid" alt="Angular icon">
+                    </div>
+                    mysql
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-image">
+                        <img src="images/git_icon.png" class="img-fluid" alt="Angular icon">
+                    </div>
+                    git
+                </div>
+
+            </div>
+
+            <!-- aws badge -->
+            <div class="mt-5 d-flex justify-content-center ">
+                <img src="images/aws_badge.png" class="img-fluid" style="width: 130px;" alt="Angular icon">
+            </div>
+
+        </div>
+
+        <!-- right side -->
+        <div class="right section-header">
+
+            <!-- quote -->
+            <p class="quote">
+                "Although it's not always about frameworks and languages but here is the list of ones I have used."
+            </p>
+
+            <!-- section image -->
+            <div style="max-width: 300px">
+                <img src="images/skills.png" class="img-fluid" alt="Illustration of me working">
+            </div>
+
+            <!-- medium title -->
+            <div class="desktop-heading text-align-right">
+                <div class="primary-text">
+                    skills
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+    <div class="footer">
+        <div class="footer-content">
+
+            <div class="contact-details">
 
                 <!-- left side -->
                 <div class="left">
                     <!-- heading -->
-                    <div class="fw-bold">
+                    <div class="message-header">
                         a message to you
                     </div>
 
                     <!-- message -->
-                    <div class="mt-2">
+                    <div class="message">
                         I'll be more than happy to chat with you.
                     </div>
                 </div>
 
                 <!-- right side -->
-                <div class="right mt-5 mt-md-0">
+                <div class="right">
 
                     <!-- contact me -->
-                    <div class="contact-me text-center text-md-end h1">
+                    <div class="contact-me-header">
                         contact me
                     </div>
 
                     <!-- socials -->
-                    <div class="text-center text-md-end mt-3">
-                        <a style="color: #1DA1F2;" class="me-3 me-md-4" href="https://twitter.com/AbhiCh2000" target="_blank"
-                            role="button"><i class="fa fa-twitter fa-2x"></i></a>
-                        <a style="color: #171515;" class="me-3 me-md-4" href="https://github.com/AbhiCh616" target="_blank"
-                            role="button"><i class="fa fa-github fa-2x"></i></a>
+                    <div class="socials">
+                        <a style="color: #1DA1F2;" class="me-3 me-md-4" href="https://twitter.com/AbhiCh2000"
+                            target="_blank" role="button"><i class="fa fa-twitter fa-2x"></i></a>
+                        <a style="color: #171515;" class="me-3 me-md-4" href="https://github.com/AbhiCh616"
+                            target="_blank" role="button"><i class="fa fa-github fa-2x"></i></a>
                         <a style="color: #0A66C2;" class="me-3 me-md-4" href="https://www.linkedin.com/in/abhich1607"
                             target="_blank" role="button"><i class="fa fa-linkedin fa-2x"></i></a>
                         <a style="color: #00ab6c;" class="" href="https://medium.com/@abhichn" target="_blank"
@@ -440,14 +431,14 @@
                     </div>
 
                     <!-- email id -->
-                    <div class="email-id mt-2 fw-bold text-center text-md-end">
+                    <div class="email-id">
                         contact@abhishekchouhan.com
                     </div>
                 </div>
 
             </div>
 
-            <div class="credits text-center fw-bold mt-5">Made with ❤️ by Abhi</div>
+            <div class="credits">Made with ❤️ by Abhi</div>
 
         </div>
     </div>
