@@ -248,6 +248,7 @@ mark {
     border-left: 2px solid #FFC850;
     padding-bottom: 30px;
     padding-top: 40px;
+    margin-left: 10%;
 }
 
 .dot {
@@ -395,5 +396,9 @@ mark {
 
     .front-page .header .intro {
         font-size: 3rem;
+    }
+
+    .timeline {
+        margin-left: 10px;
     }
 }
