@@ -28,44 +28,49 @@
 <body>
 
     <!-- first page -->
-    <div class="front-page">
+    <div class="front-page-color">
 
-        <div class="header">
+        <div class="front-page">
 
-            <div class="intro">
-                Hi👋, I am Abhi
+            <div class="header">
+
+                <div class="intro">
+                    Hi👋, I am Abhi
+                </div>
+                <div class="subtitle">
+                    I'm a software developer.
+                </div>
+                <button class="primary-btn" onclick="hireMe()">
+                    Hire Me
+                </button>
+
             </div>
-            <div class="subtitle">
-                I'm a software developer.
+
+            <!-- socials -->
+            <div class="socials">
+                <a style="color: #1DA1F2;" href="https://twitter.com/AbhiCh2000" target="_blank" role="button">
+                    <i class="fa fa-twitter fa-2x"></i>
+                </a>
+                <a style="color: #171515;" href="https://github.com/AbhiCh616" target="_blank" role="button">
+                    <i class="fa fa-github fa-2x"></i>
+                </a>
+                <a style="color: #0A66C2;" href="https://www.linkedin.com/in/abhich1607" target="_blank" role="button">
+                    <i class="fa fa-linkedin fa-2x"></i>
+                </a>
+                <a style="color: #00ab6c;" href="https://medium.com/@abhichn" target="_blank" role="button">
+                    <i class="fa fa-medium fa-2x"></i>
+                </a>
             </div>
-            <button class="primary-btn" onclick="hireMe()">
-                Hire Me
-            </button>
 
-        </div>
+            <!-- down arrow -->
+            <div class="down-arrow">
+                <img src="images/arrow_down.png" class="img-fluid" alt="Arrow pointing down">
+            </div>
 
-        <!-- socials -->
-        <div class="socials">
-            <a style="color: #1DA1F2;" href="https://twitter.com/AbhiCh2000" target="_blank" role="button">
-                <i class="fa fa-twitter fa-2x"></i>
-            </a>
-            <a style="color: #171515;" href="https://github.com/AbhiCh616" target="_blank" role="button">
-                <i class="fa fa-github fa-2x"></i>
-            </a>
-            <a style="color: #0A66C2;" href="https://www.linkedin.com/in/abhich1607" target="_blank" role="button">
-                <i class="fa fa-linkedin fa-2x"></i>
-            </a>
-            <a style="color: #00ab6c;" href="https://medium.com/@abhichn" target="_blank" role="button">
-                <i class="fa fa-medium fa-2x"></i>
-            </a>
-        </div>
-
-        <!-- down arrow -->
-        <div class="down-arrow">
-            <img src="images/arrow_down.png" class="img-fluid" alt="Arrow pointing down">
         </div>
 
     </div>
+
 
     <!-- second page -->
     <div class="page">
@@ -119,103 +124,108 @@
     </div>
 
     <!-- third page -->
-    <div class="page odd-page">
+    <div class="odd-page">
 
-        <!-- default title -->
-        <h1 class="mobile-heading">
-            work experience
-        </h1>
+        <div class="page">
 
-        <!-- left side -->
-        <div class="left section-content">
+            <!-- default title -->
+            <h1 class="mobile-heading">
+                work experience
+            </h1>
 
-            <!-- timeline -->
-            <div class="timeline">
+            <!-- left side -->
+            <div class="left section-content">
 
-                <!-- full time -->
-                <div class="container">
-                    <span class="dot"></span>
-                    <div class="content">
-                        <b>Cognizant</b>
-                        <h2>Full Stack Engineer</h2>
-                        Aug 2021 - Present<br>
-                        Tech Stack – C#, ASP.NET Core, Angular, MySQL, AWS<br>
-                        <button class="primary-btn" onclick="readCurrCompDesc()">
-                            Read More
-                        </button>
+                <!-- timeline -->
+                <div class="timeline">
+
+                    <!-- full time -->
+                    <div class="container">
+                        <span class="dot"></span>
+                        <div class="content">
+                            <b>Cognizant</b>
+                            <h2>Full Stack Engineer</h2>
+                            Aug 2021 - Present<br>
+                            Tech Stack – C#, ASP.NET Core, Angular, MySQL, AWS<br>
+                            <button class="primary-btn" onclick="readCurrCompDesc()">
+                                Read More
+                            </button>
+                        </div>
                     </div>
-                </div>
 
-                <!-- full time desc -->
-                <div id="full-time-desc" class="popup-dialog">
-                    <div class="popup-dialog-content">
-                        <i class="close-button fa fa-window-close fa-2x" onclick="closeFullTimePopup()">
-                        </i>
-                        <ul>
-                            <li>Refactored business logic out of 3 repositories to be more compliant with Clean
-                                Architecture.</li>
-                            <li>Configured application to log exceptions on AWS CloudWatch.</li>
-                            <li>In Angular, created proof of concept which served as foundation for tools and
-                                design used in implementation.</li>
-                        </ul>
+                    <!-- full time desc -->
+                    <div id="full-time-desc" class="popup-dialog">
+                        <div class="popup-dialog-content">
+                            <i class="close-button fa fa-window-close fa-2x" onclick="closeFullTimePopup()">
+                            </i>
+                            <ul>
+                                <li>Refactored business logic out of 3 repositories to be more compliant with Clean
+                                    Architecture.</li>
+                                <li>Configured application to log exceptions on AWS CloudWatch.</li>
+                                <li>In Angular, created proof of concept which served as foundation for tools and
+                                    design used in implementation.</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <div class="space-between"></div>
+                    <div class="space-between"></div>
 
-                <!-- intern -->
-                <div class="container">
-                    <span class="dot"></span>
-                    <div class="content">
-                        <b>Cognizant</b>
-                        <h2>Intern</h2>
-                        Mar 2021 - Aug 2021<br>
-                        Tech Stack – Angular, MySQL<br>
-                        <button class="primary-btn" onclick="readInternDesc()">
-                            Read More
-                        </button>
+                    <!-- intern -->
+                    <div class="container">
+                        <span class="dot"></span>
+                        <div class="content">
+                            <b>Cognizant</b>
+                            <h2>Intern</h2>
+                            Mar 2021 - Aug 2021<br>
+                            Tech Stack – Angular, MySQL<br>
+                            <button class="primary-btn" onclick="readInternDesc()">
+                                Read More
+                            </button>
+                        </div>
                     </div>
-                </div>
 
-                <!-- intern desc -->
-                <div id="intern-desc" class="popup-dialog">
-                    <div class="popup-dialog-content">
-                        <i class="close-button fa fa-window-close fa-2x" onclick="closeInternPopup()">
-                        </i>
-                        <ul>
-                            <li>Wrote numerous Liquibase-formatted MySQL database scripts and used Jenkins pipeline
-                                to deploy them.</li>
-                            <li>Created 40+ Angular test cases to increase the code coverage from 50% to 80%.</li>
-                            <li>Documented 3 Angular components for future reference.</li>
-                        </ul>
+                    <!-- intern desc -->
+                    <div id="intern-desc" class="popup-dialog">
+                        <div class="popup-dialog-content">
+                            <i class="close-button fa fa-window-close fa-2x" onclick="closeInternPopup()">
+                            </i>
+                            <ul>
+                                <li>Wrote numerous Liquibase-formatted MySQL database scripts and used Jenkins pipeline
+                                    to deploy them.</li>
+                                <li>Created 40+ Angular test cases to increase the code coverage from 50% to 80%.</li>
+                                <li>Documented 3 Angular components for future reference.</li>
+                            </ul>
+                        </div>
                     </div>
+
                 </div>
 
             </div>
 
-        </div>
+            <!-- right side -->
+            <div class="right section-header section-header-right">
 
-        <!-- right side -->
-        <div class="right section-header section-header-right">
-
-            <!-- medium title -->
-            <div class="desktop-heading text-align-right">
-                <div class="primary-text">
-                    work
+                <!-- medium title -->
+                <div class="desktop-heading text-align-right">
+                    <div class="primary-text">
+                        work
+                    </div>
+                    <div class="secondary-text second-text">
+                        experience.
+                    </div>
                 </div>
-                <div class="secondary-text second-text">
-                    experience.
-                </div>
-            </div>
 
-            <!-- section image -->
-            <div class="work-image">
-                <img src="images/work.gif" class="img-fluid" alt="Illustration of me working">
+                <!-- section image -->
+                <div class="work-image">
+                    <img src="images/work.gif" class="img-fluid" alt="Illustration of me working">
+                </div>
+
             </div>
 
         </div>
 
     </div>
+
 
     <!-- fourth page -->
     <div class="page">
@@ -298,99 +308,104 @@
     </div>
 
     <!-- fifth page -->
-    <div class="page odd-page">
+    <div class="odd-page">
 
-        <!-- default title -->
-        <h1 class="mobile-heading">
-            skills
-        </h1>
+        <div class="page">
 
-        <!-- left side -->
-        <div class="left section-content">
+            <!-- default title -->
+            <h1 class="mobile-heading">
+                skills
+            </h1>
 
-            <div class="skills-list">
+            <!-- left side -->
+            <div class="left section-content">
 
-                <div class="skill-card">
-                    <div class="skill-image">
-                        <img src="images/skill_icons/angular_icon.png" class="img-fluid" alt="Angular icon">
+                <div class="skills-list">
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img src="images/skill_icons/angular_icon.png" class="img-fluid" alt="Angular icon">
+                        </div>
+                        angular
                     </div>
-                    angular
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img src="images/skill_icons/kotlin_icon.png" class="img-fluid" alt="Angular icon">
+                        </div>
+                        kotlin
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img src="images/skill_icons/c++_icon.png" class="img-fluid" alt="Angular icon">
+                        </div>
+                        c++
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img src="images/skill_icons/android_icon.png" class="img-fluid" alt="Angular icon">
+                        </div>
+                        android
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img src="images/skill_icons/netcore_icon.png" class="img-fluid" alt="Angular icon">
+                        </div>
+                        .net core
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img src="images/skill_icons/mysql_icon.png" class="img-fluid" alt="Angular icon">
+                        </div>
+                        mysql
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-image">
+                            <img src="images/skill_icons/git_icon.png" class="img-fluid" alt="Angular icon">
+                        </div>
+                        git
+                    </div>
+
                 </div>
 
-                <div class="skill-card">
-                    <div class="skill-image">
-                        <img src="images/skill_icons/kotlin_icon.png" class="img-fluid" alt="Angular icon">
-                    </div>
-                    kotlin
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-image">
-                        <img src="images/skill_icons/c++_icon.png" class="img-fluid" alt="Angular icon">
-                    </div>
-                    c++
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-image">
-                        <img src="images/skill_icons/android_icon.png" class="img-fluid" alt="Angular icon">
-                    </div>
-                    android
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-image">
-                        <img src="images/skill_icons/netcore_icon.png" class="img-fluid" alt="Angular icon">
-                    </div>
-                    .net core
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-image">
-                        <img src="images/skill_icons/mysql_icon.png" class="img-fluid" alt="Angular icon">
-                    </div>
-                    mysql
-                </div>
-
-                <div class="skill-card">
-                    <div class="skill-image">
-                        <img src="images/skill_icons/git_icon.png" class="img-fluid" alt="Angular icon">
-                    </div>
-                    git
+                <!-- aws badge -->
+                <div class="badges">
+                    <img src="images/aws_badge.png" class="img-fluid" style="width: 150px;" alt="Angular icon">
                 </div>
 
             </div>
 
-            <!-- aws badge -->
-            <div class="badges">
-                <img src="images/aws_badge.png" class="img-fluid" style="width: 150px;" alt="Angular icon">
-            </div>
+            <!-- right side -->
+            <div class="right section-header section-header-right">
 
-        </div>
+                <!-- quote -->
+                <p class="quote">
+                    "Although it's not always about frameworks and languages but here is the list of ones I have used."
+                </p>
 
-        <!-- right side -->
-        <div class="right section-header section-header-right">
-
-            <!-- quote -->
-            <p class="quote">
-                "Although it's not always about frameworks and languages but here is the list of ones I have used."
-            </p>
-
-            <!-- section image -->
-            <div class="skills-image">
-                <img src="images/skills.gif" class="img-fluid" alt="Illustration of me working">
-            </div>
-
-            <!-- medium title -->
-            <div class="desktop-heading text-align-right">
-                <div class="primary-text">
-                    skills
+                <!-- section image -->
+                <div class="skills-image">
+                    <img src="images/skills.gif" class="img-fluid" alt="Illustration of me working">
                 </div>
+
+                <!-- medium title -->
+                <div class="desktop-heading text-align-right">
+                    <div class="primary-text">
+                        skills
+                    </div>
+                </div>
+
             </div>
 
         </div>
 
     </div>
+
 
     <div class="page">
 
