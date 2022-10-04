@@ -258,6 +258,7 @@ mark {
 
 .flip-cards {
     display: grid;
+    gap: 30px;
 }
 
 .flip-card {

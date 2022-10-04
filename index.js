@@ -33,3 +33,8 @@ function hireMe() {
 function gamifyLivingGitHub() {
     window.open('https://github.com/AbhiCh616/GamifyLiving', '_blank');
 }
+
+function trackEventsGitHub() {
+    window.open('https://github.com/AbhiCh616/Track_Life_Events', '_blank');
+}
+
