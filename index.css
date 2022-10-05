@@ -145,6 +145,10 @@ h1 {
     color: #fda9c9 !important;
 }
 
+.front-page .socials a:hover {
+    color: white !important;
+}
+
 .front-page .down-arrow {
     max-width: 40px;
     order: 3;
@@ -430,6 +434,10 @@ mark {
     flex-direction: row;
     gap: 30px;
     justify-content: center;
+}
+
+.call-to-action-socials a:hover {
+    color: var(--secondary-color) !important;
 }
 
 .call-to-action-email-id {
