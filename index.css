@@ -514,6 +514,7 @@ mark {
     .quote {
         margin-bottom: 20px;
         font-size: large;
+        margin-top: 20px;
     }
 
     .projects-image {
