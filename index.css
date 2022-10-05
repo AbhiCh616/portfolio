@@ -390,11 +390,12 @@ mark {
     height: 100%;
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 0px;
 }
 
 .popup-dialog-content {
     background-color: white;
-    margin: 15% auto;
+    margin: auto;
     width: 90%;
     max-width: 800px;
     display: flex;
@@ -533,5 +534,9 @@ mark {
 
     .skills-image {
         margin-bottom: 40px;
+    }
+
+    .popup-dialog-content {
+        padding-left: 0px;
     }
 }

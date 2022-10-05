@@ -2,11 +2,11 @@ let fullTimeDialog = document.getElementById("full-time-desc");
 let internDialog = document.getElementById("intern-desc");
 
 function readCurrCompDesc() {
-    fullTimeDialog.style.display = "block";
+    fullTimeDialog.style.display = "flex";
 }
 
 function readInternDesc() {
-    internDialog.style.display = "block";
+    internDialog.style.display = "flex";
 }
 
 window.onclick = function (event) {
