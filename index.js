@@ -27,7 +27,7 @@ function closeInternPopup() {
 }
 
 function hireMe() {
-    window.open('mailto:contact@abhishekchouhan.com', '_blank');
+    window.open('mailto:contact@abhishekchouhan.com');
 }
 
 function gamifyLivingGitHub() {
