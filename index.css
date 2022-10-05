@@ -424,7 +424,7 @@ mark {
 }
 
 .call-to-action-socials {
-    margin-top: 30px;
+    margin-top: 50px;
     display: flex;
     flex-direction: row;
     gap: 30px;
@@ -500,7 +500,7 @@ mark {
     }
 
     .call-to-action-socials {
-        margin-top: 20px;
+        margin-top: 40px;
     }
 
     .hide-on-mobile {
