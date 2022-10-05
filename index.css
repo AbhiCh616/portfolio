@@ -83,6 +83,18 @@ h1 {
     margin-top: 40px;
 }
 
+.badges a {
+    text-decoration: none;
+}
+
+.badges a img {
+    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.1));
+}
+
+.badges a img:hover {
+    filter: drop-shadow(0px 0px 5px rgba(127, 77, 255, 0.4));
+}
+
 .front-page {
     display: flex;
     flex-flow: row wrap;
@@ -458,6 +470,7 @@ mark {
 .about-me-image {
     max-width: 60%;
 }
+
 
 @media screen and (max-width: 600px) {
     .left {
