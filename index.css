@@ -87,12 +87,12 @@ h1 {
     text-decoration: none;
 }
 
-.badges a img {
-    filter: drop-shadow(0px 0px 5px rgba(0, 0, 0, 0.1));
+.problem-badge img:hover {
+    filter: drop-shadow(0px 0px 5px rgba(247, 190, 52, 0.7));
 }
 
-.badges a img:hover {
-    filter: drop-shadow(0px 0px 5px rgba(127, 77, 255, 0.4));
+.aws-badge img:hover {
+    filter: drop-shadow(0px 0px 5px rgba(43, 54, 69, 0.6));
 }
 
 .front-page {
