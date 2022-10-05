@@ -9,7 +9,7 @@ function readInternDesc() {
     internDialog.style.display = "block";
 }
 
-window.onclick = function(event) {
+window.onclick = function (event) {
     if (event.target === fullTimeDialog) {
         fullTimeDialog.style.display = "none";
     }
